@@ -1,0 +1,15 @@
+inherit gnome2
+
+NAME="snappy"
+VERSION=1.0
+RELEASE=1
+CATEGORY="Audio Video"
+SUMMARY="Clutter-based minimalistic media player"
+DESCRIPTION="snappy is an open source media player that gathers the power
+and flexibility of gstreamer inside the comfort of a minimalistic clutter
+interface."
+HOMEPAGE="https://wiki.gnome.org/Apps/Snappy"
+
+PATCH_URI="1.0-cygwin-x11.patch"
+
+REQUIRES="gstreamer1.0-plugins-clutter gstreamer1.0-plugins-base gstreamer1.0-plugins-good"
