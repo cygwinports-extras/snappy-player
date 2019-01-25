@@ -1,6 +1,7 @@
+ORIG_PN="snappy"
 inherit gnome2
 
-NAME="snappy"
+NAME="snappy-player"
 VERSION=1.0
 RELEASE=1
 CATEGORY="Audio Video"
